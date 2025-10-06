@@ -16,5 +16,10 @@ namespace IMS.Windows.UI
         {
             InitializeComponent();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
