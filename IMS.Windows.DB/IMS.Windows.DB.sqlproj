@@ -70,6 +70,7 @@
     <Build Include="Tables\Role.sql" />
     <Build Include="Pre-Compare\Pre-Compare.sql" />
     <Build Include="Programabulity\Functions\Inline_Function.sql" />
+    <Build Include="Programabulity\Stored Proccedures\Procedure1.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Post-Deployment\Script.PostDeployment.sql" />
