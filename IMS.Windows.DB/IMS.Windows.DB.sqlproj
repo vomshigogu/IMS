@@ -68,5 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Role.sql" />
+    <Build Include="Pre-Compare\Pre-Compare.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Post-Deployment\Script.PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="Pre-Deployment\Script.PreDeployment.sql" />
   </ItemGroup>
 </Project>
