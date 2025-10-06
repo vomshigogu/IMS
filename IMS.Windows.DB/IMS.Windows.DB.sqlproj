@@ -69,6 +69,7 @@
   <ItemGroup>
     <Build Include="Tables\Role.sql" />
     <Build Include="Pre-Compare\Pre-Compare.sql" />
+    <Build Include="Programabulity\Functions\Inline_Function.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Post-Deployment\Script.PostDeployment.sql" />
