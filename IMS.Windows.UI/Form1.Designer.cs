@@ -28,13 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.DataGridFetchData = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridFetchData)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // DataGridFetchData
+            // 
+            this.DataGridFetchData.BackgroundColor = System.Drawing.Color.Gray;
+            this.DataGridFetchData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridFetchData.GridColor = System.Drawing.SystemColors.ActiveCaption;
+            this.DataGridFetchData.Location = new System.Drawing.Point(12, 344);
+            this.DataGridFetchData.Name = "DataGridFetchData";
+            this.DataGridFetchData.RowHeadersWidth = 51;
+            this.DataGridFetchData.RowTemplate.Height = 24;
+            this.DataGridFetchData.Size = new System.Drawing.Size(1278, 448);
+            this.DataGridFetchData.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1302, 804);
+            this.Controls.Add(this.DataGridFetchData);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridFetchData)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView DataGridFetchData;
     }
 }
 
